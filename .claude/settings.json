@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue)",
+      "Bash(npx next:*)",
+      "Bash(node_modules/.bin/next build:*)",
+      "Bash(ls node_modules/.bin/next*)",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\([f for f in d['files'] if 'manifest' in f]\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('.next/server/app/page_client-reference-manifest.js'\\).read\\(\\).replace\\('self.__RSC_MANIFEST={\\\\\"\\\\\":',''\\).rstrip\\(';'\\) if False else open\\('.next/server/app/page_client-reference-manifest.js'\\)\\); print\\(list\\(d.keys\\(\\)\\)[:5]\\)\")",
+      "Bash(python -c ':*)"
+    ]
+  }
+}

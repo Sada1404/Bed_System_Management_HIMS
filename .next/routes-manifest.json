@@ -1,0 +1,270 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/appointments/docter-slots/[id]",
+      "regex": "^/appointments/docter\\-slots/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/appointments/docter\\-slots/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/appointments/[id]",
+      "regex": "^/appointments/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/appointments/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/appointments",
+      "regex": "^/appointments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments(?:/)?$"
+    },
+    {
+      "page": "/appointments/booking",
+      "regex": "^/appointments/booking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/booking(?:/)?$"
+    },
+    {
+      "page": "/appointments/docter-notes",
+      "regex": "^/appointments/docter\\-notes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/docter\\-notes(?:/)?$"
+    },
+    {
+      "page": "/appointments/docter-slots",
+      "regex": "^/appointments/docter\\-slots(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/docter\\-slots(?:/)?$"
+    },
+    {
+      "page": "/appointments/entry",
+      "regex": "^/appointments/entry(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/entry(?:/)?$"
+    },
+    {
+      "page": "/appointments/history",
+      "regex": "^/appointments/history(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/history(?:/)?$"
+    },
+    {
+      "page": "/appointments/visit",
+      "regex": "^/appointments/visit(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/appointments/visit(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/register",
+      "regex": "^/auth/register(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/register(?:/)?$"
+    },
+    {
+      "page": "/billing",
+      "regex": "^/billing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing(?:/)?$"
+    },
+    {
+      "page": "/billing/claim-process",
+      "regex": "^/billing/claim\\-process(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/claim\\-process(?:/)?$"
+    },
+    {
+      "page": "/billing/claims",
+      "regex": "^/billing/claims(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/claims(?:/)?$"
+    },
+    {
+      "page": "/billing/generator",
+      "regex": "^/billing/generator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/generator(?:/)?$"
+    },
+    {
+      "page": "/billing/insurance",
+      "regex": "^/billing/insurance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/insurance(?:/)?$"
+    },
+    {
+      "page": "/billing/online-payments",
+      "regex": "^/billing/online\\-payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/online\\-payments(?:/)?$"
+    },
+    {
+      "page": "/billing/payments",
+      "regex": "^/billing/payments(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/payments(?:/)?$"
+    },
+    {
+      "page": "/billing/reports",
+      "regex": "^/billing/reports(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/billing/reports(?:/)?$"
+    },
+    {
+      "page": "/clinic/beds",
+      "regex": "^/clinic/beds(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinic/beds(?:/)?$"
+    },
+    {
+      "page": "/clinic/doctors",
+      "regex": "^/clinic/doctors(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinic/doctors(?:/)?$"
+    },
+    {
+      "page": "/clinic/hospitals",
+      "regex": "^/clinic/hospitals(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinic/hospitals(?:/)?$"
+    },
+    {
+      "page": "/clinic/specialists",
+      "regex": "^/clinic/specialists(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/clinic/specialists(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/emergency",
+      "regex": "^/emergency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emergency(?:/)?$"
+    },
+    {
+      "page": "/emergency/alternate",
+      "regex": "^/emergency/alternate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emergency/alternate(?:/)?$"
+    },
+    {
+      "page": "/emergency/ambulance",
+      "regex": "^/emergency/ambulance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emergency/ambulance(?:/)?$"
+    },
+    {
+      "page": "/emergency/dashboard",
+      "regex": "^/emergency/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emergency/dashboard(?:/)?$"
+    },
+    {
+      "page": "/emergency/detection",
+      "regex": "^/emergency/detection(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emergency/detection(?:/)?$"
+    },
+    {
+      "page": "/emergency/redirect",
+      "regex": "^/emergency/redirect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/emergency/redirect(?:/)?$"
+    },
+    {
+      "page": "/patient",
+      "regex": "^/patient(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient(?:/)?$"
+    },
+    {
+      "page": "/patient/booking",
+      "regex": "^/patient/booking(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient/booking(?:/)?$"
+    },
+    {
+      "page": "/patient/dashboard",
+      "regex": "^/patient/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient/dashboard(?:/)?$"
+    },
+    {
+      "page": "/patient/emergency",
+      "regex": "^/patient/emergency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient/emergency(?:/)?$"
+    },
+    {
+      "page": "/patient/insurance",
+      "regex": "^/patient/insurance(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient/insurance(?:/)?$"
+    },
+    {
+      "page": "/patient/registration",
+      "regex": "^/patient/registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/patient/registration(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
